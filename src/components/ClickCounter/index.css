@@ -1,0 +1,40 @@
+.ClickCounterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f1f5f8;
+  background-size: cover;
+  min-height: 100vh;
+}
+.title {
+  font-family: 'Roboto';
+  color: #2d3a35;
+  text-align: center;
+  font-size: 40px;
+}
+.description {
+  font-family: 'Roboto';
+  color: #2d3a35;
+  font-size: 12px;
+  text-align: center;
+}
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  border: 0px;
+  text-align: center;
+  padding: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+  outline: none;
+  max-width: 150px;
+  min-width: 80px;
+  align-self: center;
+}
+.counter {
+  color: #c20a72;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
